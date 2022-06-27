@@ -3,3 +3,46 @@
     padding: 1%;
     font-size: 2.5rem;
 }
+
+.contents-wrapper{
+    display: flex;
+}
+
+.main-contents{
+    width: 85%;
+}
+
+.label-and-textbox{
+    margin-top: 3%;
+    display: flex;
+}
+
+label{
+    margin-left: 10%;
+    margin-right: 3%;
+    font-size: 1rem;
+}
+
+select{
+    font-size: 1rem;
+}
+
+.search-button{
+    margin: 0 0 0 auto;
+    font-size: 1rem;
+    width: 8rem;
+}
+
+table,
+td {
+    margin-top: 4rem;
+    margin-left: 10%;
+    border: 1px solid #333;
+    max-width: 90%;
+}
+
+thead,
+tfoot {
+    background-color: #333;
+    color: #fff;
+}
