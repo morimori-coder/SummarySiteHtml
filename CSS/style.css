@@ -30,7 +30,7 @@ select{
 }
 
 .search-button{
-    margin: 0 6% 0 auto;
+    margin: 0 15% 0 auto;
     font-size: 1rem;
     width: 8rem;
 }
@@ -55,14 +55,3 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
-
-/* thead, tbody{
-    display: block;
-
-} */
-
-/* tbody{
-    overflow-x: hidden;
-    overflow-y: scroll;
-    height: 100px;
-} */
