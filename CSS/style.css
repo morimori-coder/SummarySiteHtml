@@ -6,19 +6,21 @@
 
 .contents-wrapper{
     display: flex;
+    height: 90%;
 }
 
 .main-contents{
     width: 85%;
+    height: 60%;
 }
 
 .label-and-textbox{
-    margin-top: 3%;
+    margin-top: 1%;
     display: flex;
 }
 
 label{
-    margin-left: 10%;
+    margin-left: 15%;
     margin-right: 3%;
     font-size: 1rem;
 }
@@ -28,17 +30,24 @@ select{
 }
 
 .search-button{
-    margin: 0 0 0 auto;
+    margin: 0 6% 0 auto;
     font-size: 1rem;
     width: 8rem;
 }
 
+.table-div{
+
+    word-break: break-all;
+    
+}
+
 table,
 td {
-    margin-top: 4rem;
-    margin-left: 10%;
     border: 1px solid #333;
-    max-width: 90%;
+}
+
+.dance-kind{
+    width: 10;
 }
 
 thead,
@@ -46,3 +55,14 @@ tfoot {
     background-color: #333;
     color: #fff;
 }
+
+/* thead, tbody{
+    display: block;
+
+} */
+
+/* tbody{
+    overflow-x: hidden;
+    overflow-y: scroll;
+    height: 100px;
+} */
