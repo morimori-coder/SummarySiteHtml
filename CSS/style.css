@@ -30,12 +30,6 @@ select{
     width: 4rem;
 }
 
-.table-div{
-
-    word-break: break-all;
-    
-}
-
 table,
 td {
     margin-top: 3%;
